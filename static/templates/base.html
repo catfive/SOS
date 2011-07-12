@@ -1,0 +1,13 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}styles/style.css" />
+</head>
+
+{% include "header.html" %}
+
+<div class="wrap">
+	{% block content %}
+	{% endblock content %}
+</div>
+
+</html>

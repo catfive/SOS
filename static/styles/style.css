@@ -1,0 +1,25 @@
+body{
+	font-family: Helvetica;
+	margin: 0;
+	padding: 0;
+}
+
+div.wrap{
+	padding: 20px;
+}
+
+br.clear{
+clear: both;
+}
+
+div#header{
+	width: 100%;
+	background-color: gray;
+}
+
+p.logout{
+	float: right;
+}
+
+div #main{
+}
